@@ -863,8 +863,12 @@ msgstr "Error: Tidak dapat mengirim Silicion ke alamat berwarna. Mohon masukkan 
 msgid "Estimated Network Space"
 msgstr ""
 
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:45
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:53
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:139
+msgid "Estimated Staking Factor: {stakingFactorStr}"
+msgstr ""
+
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:122
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:130
 msgid "Estimated Time to Win"
 msgstr "Perkiraan waktu untuk menang"
 
@@ -2955,7 +2959,7 @@ msgstr ""
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation."
 #~ msgstr ""
 
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:56
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:133
 msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3 to 4 times longer than this estimate."
 msgstr "Anda memiliki {0}% dari total ruang di jaringan, maka farming 1 blok akan memakan waktu {expectedTimeToWin} menurut perkiraan. Hasil nyata bisa saja memakan waktu 3 sampai 4 kali lebih lama dari perkiraan ini."
 

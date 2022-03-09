@@ -863,8 +863,12 @@ msgstr "Gabim: Nuk mund te dergojmë Silicion në Adresën e dhënë. Ju lutemi 
 msgid "Estimated Network Space"
 msgstr "Madhësia e Hapsirës së rrjetit"
 
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:45
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:53
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:139
+msgid "Estimated Staking Factor: {stakingFactorStr}"
+msgstr ""
+
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:122
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:130
 msgid "Estimated Time to Win"
 msgstr "Koha e parashikuar për të fituar"
 
@@ -2953,7 +2957,7 @@ msgstr "Ju keni bërë ndryshime. A doni t'i hidhni ato?"
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation."
 #~ msgstr ""
 
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:56
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:133
 msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3 to 4 times longer than this estimate."
 msgstr "Ju keni {0}% të hapësirës në rrjet, kështu që prodhimi i një blloku do të marrë {expectedTimeToWin}. Rezultatet aktuale mund të zgjasin 3 deri në 4 herë më shumë se sa ky vlerësim."
 

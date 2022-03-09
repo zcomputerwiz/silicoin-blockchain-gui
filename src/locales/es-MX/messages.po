@@ -863,8 +863,12 @@ msgstr "Error: No se puede enviar Silicoin a la dirección de color. Por favor i
 msgid "Estimated Network Space"
 msgstr "Espacio Estimado de la Red"
 
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:45
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:53
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:139
+msgid "Estimated Staking Factor: {stakingFactorStr}"
+msgstr ""
+
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:122
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:130
 msgid "Estimated Time to Win"
 msgstr "Tiempo Estimado para Ganar"
 
@@ -2953,7 +2957,7 @@ msgstr "Ha hecho cambios, ¿quiere descartarlos?"
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation."
 #~ msgstr ""
 
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:56
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:133
 msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3 to 4 times longer than this estimate."
 msgstr "Tienes un {0}% del espacio en la red, así que la recolección de un bloque tomará {expectedTimeToWin} de espera. Los resultados reales pueden tardar entre 3 y 4 veces más que esta estimación."
 

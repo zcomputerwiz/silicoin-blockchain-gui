@@ -5,6 +5,7 @@ type Plot = {
   size: number;
   local_sk: string;
   farmer_public_key: string;
+  farmer_puzzle_address?: string;
   plot_public_key: string;
   pool_public_key: string;
   pool_contract_puzzle_hash: string;

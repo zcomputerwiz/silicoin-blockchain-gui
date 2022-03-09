@@ -863,8 +863,12 @@ msgstr "錯誤：不能發送 Silicoin 到有色地址。請輸入 Silicoin 地�
 msgid "Estimated Network Space"
 msgstr "估計的網路空間"
 
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:45
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:53
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:139
+msgid "Estimated Staking Factor: {stakingFactorStr}"
+msgstr ""
+
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:122
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:130
 msgid "Estimated Time to Win"
 msgstr "預計贏取時間"
 
@@ -2953,7 +2957,7 @@ msgstr "您有做過變更。請問您想要放棄它們嗎？"
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation."
 #~ msgstr ""
 
-#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:56
+#: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:133
 msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3 to 4 times longer than this estimate."
 msgstr "你擁有 {0} ％的網路空間，耕種一個區塊預計要 {expectedTimeToWin} 。實際結果可能是預計的 3 至 4 倍。"
 

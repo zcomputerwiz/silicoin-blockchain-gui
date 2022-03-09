@@ -1104,7 +1104,7 @@ export function recover_pool_nft(contract_hash, launcher_hash, coins) {
   };
 }
 
-export function send_transaction_multi(coins, amount, puzzle_hash) {
+export function send_transaction_multi(coins, additions) {
   return async (dispatch) => {
     const response = await async_api(
       dispatch,
@@ -1112,10 +1112,7 @@ export function send_transaction_multi(coins, amount, puzzle_hash) {
         command: 'send_transaction_multi',
         data: {
           wallet_id: 1,
-          additions: [{
-            amount: amount,
-            puzzle_hash: puzzle_hash
-          }], 
+          additions: additions,
           coins: coins,
           fee: 0 
         },
